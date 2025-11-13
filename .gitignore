@@ -3,6 +3,7 @@
 .env
 .env.backup
 .env.production
+.env.example
 .phpactor.json
 .phpunit.result.cache
 /.fleet
@@ -19,6 +20,8 @@
 /storage/*.key
 /storage/pail
 /vendor
+/database/seeders/
+composer.lock
 Homestead.json
 Homestead.yaml
 Thumbs.db
